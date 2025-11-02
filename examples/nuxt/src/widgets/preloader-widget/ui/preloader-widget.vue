@@ -1,0 +1,39 @@
+<script setup lang="ts">
+import { Logs, LoadingBar, CautionIcon } from '@/shared/ui'
+import { useAppStore } from '@/entities/app'
+
+const appStore = useAppStore()
+
+defineProps<{
+    percent: number
+}>()
+
+const normalizedPreloadedImages = computedEager(() =>
+    appStore.preloadedImages.value.filter((image) => image.isLoaded)
+)
+</script>
+
+<template>
+    <div class="preloader-widget">
+        <logs :images="normalizedPreloadedImages" />
+        <loading-bar :percent="percent">
+            <template #icon>
+                <caution-icon />
+            </template>
+        </loading-bar>
+    </div>
+</template>
+
+<style lang="scss" scoped>
+.preloader-widget {
+    width: 100%;
+    height: 100%;
+    background-color: $color-black;
+    z-index: 101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+</style>

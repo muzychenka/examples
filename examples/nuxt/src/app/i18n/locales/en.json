@@ -1,0 +1,45 @@
+{
+    "name": "TEST NAME",
+    "loading-bar": {
+        "ready": "READY",
+        "preparing": "PREPARING"
+    },
+    "about-me": {
+        "page-title": "ABOUT ME",
+        "title": "About me",
+        "main": {
+            "title": "MAIN",
+            "article": "Hi, I'm Test, originally from City, Country. I've been working as a developer for many years and I'm always eager to learn and explore new technologies. My journey into IT began back in school, when I started creating game servers. I'm fluent in English at a B2 level, which allows me to collaborate effectively with international teams and projects."
+        },
+        "hobbies": {
+            "title": "HOBBIES",
+            "article": "I draw inspiration from video games, sports, and late-night walks. I also enjoy cooking and often spend nights coding - that's when the best ideas come to life."
+        },
+        "description": {
+            "born": {
+                "title": "BORN",
+                "value": "01/01/1970"
+            },
+            "sex": {
+                "title": "SEX",
+                "value": "Male"
+            },
+            "location": {
+                "title": "LOCATION",
+                "value": "City, Country"
+            }
+        }
+    },
+    "experience": {
+        "page-title": "EXPERIENCE",
+        "title": "Experience",
+        "summary": {
+            "title": "SUMMARY",
+            "article": "I work confidently across the entire project lifecycle — from architecture and development to deployment and performance optimization — while maintaining strong communication with stakeholders."
+        }
+    },
+    "skills": {
+        "page-title": "SKILLS",
+        "title": "Skills"
+    }
+}
