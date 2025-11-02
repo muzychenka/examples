@@ -6,6 +6,7 @@ A collection of Feature-Sliced Examples that show how you can build applications
 
 - **[examples/react-effector-todo-app](./todo-app)** <sub>[outdated]</sub>
 - **[examples/solidjs-with-layout](./examples/solidjs-with-layout)** - shows how to work with layouts
+- **[examples/nuxt](./examples/nuxt)** - shows how to work with Nuxt
 
 ## Community examples — full projects
 
